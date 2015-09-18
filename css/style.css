@@ -1,5 +1,14 @@
-ul{
-	
+
+
+ul{	
 	display: inline-block;
 	vertical-align:top;
+}
+
+@media screen and (max-width: 1000px){
+	ul{	
+		display: block;
+		vertical-align:top;
+		font-size: 200%;
+	}
 }
